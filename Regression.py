@@ -70,6 +70,10 @@ poly_model.fit(X_train_poly, y_train_poly)
 
 # Make predictions
 y_pred_poly = poly_model.predict(X_test_poly)
+#Plots 
+plt.figure(figsize=(width, height))
+sns.regplot(x="independant variable", y="dependant variable", data=df)
+plt.ylim(0,)
 
 # Evaluate Polynomial Regression model
 mse_poly = mean_squared_error(y_test_poly, y_pred_poly)
