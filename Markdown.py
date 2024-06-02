@@ -172,10 +172,3 @@ New paragraph
   **Bold and _italic_**
   \`\`\`
 
----
-
-This summary covers the essential Markdown syntax used in Jupyter notebooks. For more advanced formatting, you can refer to the [Markdown Guide](https://www.markdownguide.org/basic-syntax/) or the [Jupyter Notebook documentation](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html).
-"""
-
-with open("markdown_summary.py", "w") as file:
-    file.write(markdown_summary)
